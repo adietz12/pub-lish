@@ -12,6 +12,6 @@ app = Flask(__name__)
 def start():
     return render_template("home.html")
 
-@app.route("/sign-in", methods["GET"])
+@app.route("/new-user")
 def signin():
     return render_template("new-user.html")
