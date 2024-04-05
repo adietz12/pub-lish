@@ -1,0 +1,35 @@
+.button {
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color:#70A9A1;
+    color:white;
+}
+
+.bannerRectangle {
+    margin:0;
+    height:88px;
+    background-color:white;
+    border: 2px solid black;
+}
+
+.bannerButton {
+    background-color:#70A9A1;
+    color:white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.bannerButton:hover {
+    background-color:#548C84;
+}
