@@ -15,7 +15,7 @@
 
 .bannerRectangle {
     margin:0;
-    height:88px;
+    height:80px;
     background-color:white;
     border: 2px solid black;
 }
@@ -32,4 +32,8 @@
 
 .bannerButton:hover {
     background-color:#548C84;
+}
+
+.background {
+    background-color:#CFE0C3 ;
 }

@@ -14,4 +14,4 @@ def start():
 
 @app.route("/new-user")
 def signin():
-    return render_template("new-user.html")
+    return render_template("new_user.html")
