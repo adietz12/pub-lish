@@ -15,3 +15,7 @@ def start():
 @app.route("/new-user")
 def signin():
     return render_template("new_user.html")
+
+@app.route("/settings")
+def settings():
+    return render_template("settings.html")
