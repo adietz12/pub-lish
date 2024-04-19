@@ -26,26 +26,26 @@
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
-                            <a href="#" class=" nav-link align-middle px-0">
+                            <a href="home" class=" nav-link align-middle px-0">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="trending.html" class="nav-link px-0 align-middle">
+                            <a href="trending" class="nav-link px-0 align-middle">
                                  <span class="ms-1 d-none d-sm-inline">Trending</span> </a>
                            
                         </li>
                         <li>
-                            <a href="trending.html" class="nav-link px-0 align-middle">
+                            <a href="latest" class="nav-link px-0 align-middle">
                             <span class="ms-1 d-none d-sm-inline">Latest</span></a>
                         </li>
                         <li>
-                            <a href="#search.html" class="nav-link px-0 align-middle ">
+                            <a href="search" class="nav-link px-0 align-middle ">
                                 <span class="ms-1 d-none d-sm-inline">Search</span></a>
                             
                         </li>
                         <li>
-                            <a href="#feed.html" class="nav-link px-0 align-middle ">
+                            <a href="feed" class="nav-link px-0 align-middle ">
                                 <span class="ms-1 d-none d-sm-inline">Feed</span></a>
                             
                         </li>
@@ -64,8 +64,7 @@
             <!--Content goes here-->
             <div class="col py-3 background">
                 <h1 style="text-align: center" >{{data["title"]}}</h1>
-                <h3 style="text-align: center" >{{data["author"]}} </h3>
-                <img style="position:relative; float:right;margin: 10px; scale: 50%" src="logo_dark.png">
+                <h3 style="text-align: center" >By {{data["author"]}} </h3>
                 <p style=" margin: 10px">{{data["text"]}}</p>
             </div>
         </div>

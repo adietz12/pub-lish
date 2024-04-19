@@ -36,7 +36,7 @@
                            
                         </li>
                         <li>
-                            <a href="trending" class="nav-link px-0 align-middle">
+                            <a href="latest" class="nav-link px-0 align-middle">
                             <span class="ms-1 d-none d-sm-inline">Latest</span></a>
                         </li>
                         <li>
@@ -72,7 +72,7 @@
 
                         <div class="card-body">
                           <h5 class="card-title">{{item["title"]}}</h5>
-                          <p class="card-text"> {{item["author"]}}</p>
+                          <p class="card-text"> {{item["author"]}}, published {{item["date_string"]}}</p>
                           <a href="/article/{{item['_id']}}" class="btn btn-primary">Go to article</a>
                         </div>
                       </div>
