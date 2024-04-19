@@ -18,8 +18,8 @@ articles_db = client.articles_db
 def start():
     return render_template("home.html")
 
-@app.route("/new-user")
-def signin():
+@app.route("/new_user")
+def new_user():
     return render_template("new_user.html")
 
 @app.route("/settings")
@@ -70,5 +70,5 @@ def article(id=None):
         data["id"] = str(data["_id"])
         return render_template("article.html", data=data)
     else:
-        return redirect("/home")
+        return redirect(url_for("start"))
 
