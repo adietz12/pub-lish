@@ -79,3 +79,7 @@ def sign_up():
 @app.route("/log_in")
 def log_in():
     return render_template("log_in.html")
+
+@app.route("/home")
+def home():
+    return render_template("home.html")
