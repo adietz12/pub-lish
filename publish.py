@@ -72,3 +72,10 @@ def article(id=None):
     else:
         return redirect(url_for("start"))
 
+@app.route("/sign_up")
+def sign_up():
+    return render_template("sign_up.html")
+
+@app.route("/log_in")
+def log_in():
+    return render_template("log_in.html")
