@@ -6,7 +6,7 @@
     <style>
         .centerbox {
             width:500px;
-            height:300px;
+            height:350px;
             background-color:#dddddd;
             position:absolute;
             top:50%;
@@ -14,7 +14,7 @@
             transform: translate(-50%, -50%);
             margin:0;
             border: 2px solid black;
-            border-radius:2px;
+            border-radius:20px;
         }
         .centerform {
             position:absolute;
@@ -23,15 +23,18 @@
             transform: translate(-50%, -50%);
             text-align:center;
             margin:0;     
+
         }
     </style>
 </head>
 <body style="background-color:#CFE0C3">
     <div class="centerbox"></div>
     <div class="centerform">
+        <h1 style="text-align: center; bottom: relative;">Log in</h1>
+        <br>
         <form action="home" method=get>
-            <p style="text-align:right">email/username <input type="text" size=20 placeholder="email or username" name="username"></p>
-            <p style="text-align:right">password <input type="password" size=20 placeholder="password12345" name="password"></p><br>
+            <p style="text-align:right">Email or Username <input type="text" size=20 placeholder="email or username" name="username"></p>
+            <p style="text-align:right">Password <input type="password" size=20 placeholder="password12345" name="password"></p><br>
             <input type="submit" class="button" style="padding:20px 40px" value="Log In"><p></p>     
         </form>
         <a href="new_user" style="color:red">Cancel</a>

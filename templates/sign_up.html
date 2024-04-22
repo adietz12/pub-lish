@@ -6,7 +6,7 @@
     <style>
         .centerbox {
             width:500px;
-            height:380px;
+            height:420px;
             background-color:#dddddd;
             position:absolute;
             top:50%;
@@ -14,7 +14,7 @@
             transform: translate(-50%, -50%);
             margin:0;
             border: 2px solid black;
-            border-radius:2px;
+            border-radius:20px;
         }
         .centerform {
             position:absolute;
@@ -29,11 +29,14 @@
 <body style="background-color:#CFE0C3">
     <div class="centerbox"></div>
     <div class="centerform">
-        <form action="new_user" method=get>
-            <p style="text-align:right">email <input type="text" size=20 placeholder="example@email.com" name="email"></p>
-            <p style="text-align:right">username <input type="text" size=20 placeholder="username" name="username"></p>
-            <p style="text-align:right">password <input type="password" size=20 placeholder="password12345" name="password"></p>
-            <p>confirm password  <input type="password" size=20 placeholder="confirm password" name="conf_pass"></p><br>
+        <h1 style="text-align: center; bottom: relative;">Sign up</h1>
+        <br>
+
+        <form action="home" method=get>
+            <p style="text-align:right">Email <input type="text" size=20 placeholder="example@email.com" name="email"></p>
+            <p style="text-align:right">Username <input type="text" size=20 placeholder="username" name="username"></p>
+            <p style="text-align:right">Password <input type="password" size=20 placeholder="password12345" name="password"></p>
+            <p>Confirm Password  <input type="password" size=20 placeholder="confirm password" name="conf_pass"></p><br>
             <input type="submit" class="button" style="padding:20px 40px" value="Submit"><p></p>
         </form>
         <a href="new_user" style="color:red">Cancel</a>
