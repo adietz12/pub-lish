@@ -34,7 +34,7 @@ def feed():
     for item in data:
         item["_id"] = str(item["_id"])
         item["object"] = ObjectId(item["_id"])
-    return render_template("feed.html", data=data)
+    return render_template("feed.html", data=data, page="Feed")
 
 @app.route("/trending")
 def trending():
@@ -44,7 +44,7 @@ def trending():
     for item in data:
         item["_id"] = str(item["_id"])
         item["object"] = ObjectId(item["_id"])
-    return render_template("feed.html", data=data)
+    return render_template("feed.html", data=data, page="Trending")
 
 @app.route("/latest")
 def latest():
@@ -57,7 +57,7 @@ def latest():
     for item in data:
         item["_id"] = str(item["_id"])
         item["object"] = ObjectId(item["_id"])
-    return render_template("feed.html", data=data)
+    return render_template("feed.html", data=data, page="Latest")
 
 @app.route("/article/<id>", methods=["GET"])
 def article(id=None):
