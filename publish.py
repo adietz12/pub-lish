@@ -5,6 +5,7 @@
 from flask import Flask, render_template, request, make_response, redirect, url_for
 from mongita import MongitaClientDisk
 from bson import ObjectId
+import re
 
 
 app = Flask(__name__)
@@ -15,12 +16,9 @@ articles_db = client.articles_db
 
 
 @app.route("/", methods=["GET"])
+@app.route("/home")
 def start():
     return render_template("home.html")
-
-@app.route("/new_user")
-def new_user():
-    return render_template("new_user.html")
 
 @app.route("/settings")
 def settings():
@@ -72,14 +70,28 @@ def article(id=None):
     else:
         return redirect(url_for("start"))
 
+@app.route("/search", methods=["GET"])
+def search():
+    search_input = request.args.get("search-input", "")
+    article_collection = articles_db.article_collection
+    
+    # Query the database by exact title match
+    data = list(article_collection.find({"title": search_input}))
+
+    # Convert ObjectId to string for each document
+    for item in data:
+        item["_id"] = str(item["_id"])
+        item["object"] = ObjectId(item["_id"])
+    
+    return render_template("search.html", data=data)
+
+    
+@app.route("/new_user")
+def new_user():
+    return render_template("new_user.html")
 @app.route("/sign_up")
 def sign_up():
     return render_template("sign_up.html")
-
 @app.route("/log_in")
 def log_in():
     return render_template("log_in.html")
-
-@app.route("/home")
-def home():
-    return render_template("home.html")
