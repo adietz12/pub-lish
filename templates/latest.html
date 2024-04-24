@@ -30,14 +30,14 @@
                         </li>
                         <li class="nav-item">
                             <a href="trending.html" class="nav-link px-0 align-middle">
-                                 <span class="ms-1 d-none d-sm-inline">Trending</span> </a>
+                                    <span class="ms-1 d-none d-sm-inline">Trending</span> </a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item selected">
                             <a href="latest.html" class="nav-link px-0 align-middle">
                             <span class="ms-1 d-none d-sm-inline">Latest</span></a>
                         </li>
-                        <li class="nav-item selected">
+                        <li class="nav-item">
                             <a href="search.html" class="nav-link px-0 align-middle ">
                                 <span class="ms-1 d-none d-sm-inline">Search</span></a>
 
@@ -61,37 +61,16 @@
             </div>
             <main class="col py-3 background">
                 <!--Content goes here-->
-                <div class="input-group">
-                        <input id="search-input" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                        <a id="search-link" href="#" class="btn button" data-mdb-ripple-init>Search</a>
-                  </div>
-                  <div class="card-columns">
-                    {% for item in data%}
-                    <div class="card">
-                        <div class="card-header">
-                          {{page}}
-                        </div>
+                <h2 style="text-align: center;">Latest Articles</h2>
 
-                        <div class="card-body">
-                          <h5 class="card-title">{{item["title"]}}</h5>
-                          <p class="card-text"> {{item["author"]}}, published {{item["date_string"]}}</p>
-                          <a href="/article/{{item['_id']}}" class="btn btn-primary">Go to article</a>
-                        </div>
-                      </div>
-                      {% endfor %}
+                <div class="card-columns" id="article-area">
+                </div>
 
-            </div>
-        </main>
+            </main>
+        </div>
     </div>
     
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        document.getElementById("search-input").addEventListener("input", function() {
-            var searchQuery = encodeURIComponent(this.value.trim());
-            var searchLink = document.getElementById("search-link");
-            var baseUrl = "/search/";
-            searchLink.href = baseUrl + searchQuery;
-        });
-        </script>
+    <script src="content.js" type="module"></script>
 </body>

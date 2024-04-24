@@ -1,0 +1,57 @@
+[
+    {
+        "Title": "Super Cool Article",
+        "Source": "Source 1",
+        "Author": "Darien Yoder",
+        "Date_Published": "12/01/2023",
+        "Description": "about stuff",
+        "ThumbnailURL": "article1.jpeg",
+        "Content": "Awesome artcle",
+        "Latest": 1,
+        "Trending": 0
+    },
+    {
+        "Title": "Article 2",
+        "Source": "Source 1",
+        "Author": "Dakota Deets",
+        "Date_Published": "10/20/2023",
+        "Description": "about stuff",
+        "ThumbnailURL": "article1.jpeg",
+        "Content": "fdjklskfjdsajkfldsjfkdsaj",
+        "Latest": 1,
+        "Trending": 0
+    },
+    {
+        "Title": "Article 3",
+        "Source": "Source 2",
+        "Author": "Anthony Dietz",
+        "Date_Published": "10/05/2023",
+        "Description": "about stuff",
+        "ThumbnailURL": "article1.jpeg",
+        "Content": "fdjklskfjdsajkfldsjfkdsaj",
+        "Latest": 0,
+        "Trending": 1
+    },
+    {
+        "Title": "Article 4",
+        "Source": "Source 3",
+        "Author": "Seth Opatz",
+        "Date_Published": "10/01/2023",
+        "Description": "about stuff",
+        "ThumbnailURL": "article1.jpeg",
+        "Content": "fdjklskfjdsajkfldsjfkdsaj",
+        "Latest": 0,
+        "Trending": 0
+    },
+    {
+        "Title": "Article 5",
+        "Source": "Source 3",
+        "Author": "Cole Kaminski",
+        "Date_Published": "9/01/2023",
+        "Description": "about stuff",
+        "ThumbnailURL": "article1.jpeg",
+        "Content": "fdjklskfjdsajkfldsjfkdsaj",
+        "Latest": 0,
+        "Trending": 1
+    }
+]

@@ -47,6 +47,11 @@ nav {
     transition: background-color 0.4s;
 }
 
+.big-card-wrapper {
+    align-content: center;
+    width: 500px;
+}
+
 .nav-item:hover {
     background-color: #4f3a1d;
 }
@@ -56,5 +61,34 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #f6f0e7;
+    color: grey;
+}
+
+.selected {
+    background-color: #4f3a1d;
+}
+
+.selected a {
+    color: lightgrey;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card-header {
+    padding: 0;
+    height: 128px;
+}
+
+.thumbnail {
+    height: 128px;
+}
+
+.card-title {
+    padding-left: 16px;
+}
+
+.card-text {
+    padding-left: 16px;
 }
