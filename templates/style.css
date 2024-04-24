@@ -58,3 +58,11 @@ nav {
 .nav-item a:hover {
     color: #f6f0e7;
 }
+
+#big-card-wrapper {
+    margin: 0px 150px;
+}
+
+#big-card {
+
+}
