@@ -1,16 +1,17 @@
 .button {
-    background-color:white;
+    background-color:#9ec1a3;
     color:black;
     border: 2px solid black;
     cursor: pointer;
     transition-duration: 0.3s;
     border-radius: 5px;
     text-decoration:none;
+    padding: 10px
 }
 
 .button:hover {
-    background-color:#70A9A1;
-    color:white;
+    background-color:#548C84;
+    color:black;
 }
 
 .bannerRectangle {
@@ -37,3 +38,42 @@
 .background {
     background-color:#CFE0C3 ;
 }
+
+
+.savebutton {
+    background-color:#12c52d;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    text-decoration:none;
+    padding: 10px
+}
+
+.savebutton:hover {
+    background-color:#06380d;
+    color:black;
+}
+
+.cancelbutton {
+    background-color:#ffffff;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    text-decoration:none;
+    padding: 10px
+}
+
+.cancelbutton:hover {
+    background-color:#be2828;
+    color:black;
+}
+
+.navEdits{
+    background-color: #1f363d; 
+    margin:-5px;
+}
+

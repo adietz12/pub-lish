@@ -12,7 +12,7 @@
             <div class="col-md"></div>
           <a class="navbar-brand text-center">Publish</a>
           <div class="col text-end">
-            <a href="/new_user" class="bannerButton" style="position:relative;right:10px; padding:15px 30px" >Logout</a>
+            <a href="{{url_for('new_user')}}" class="bannerButton" style="position:relative;right:10px; padding:15px 30px" >Logout</a>
           </div>
         </div>
       </nav>
@@ -23,34 +23,35 @@
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="navEdits">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
-                            <a href="/" class=" nav-link align-middle px-0">
+                            <a href="{{url_for('start')}}" class=" nav-link align-middle px-0" style="color:white;">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="trending" class="nav-link px-0 align-middle">
+                            <a href="{{url_for('trending')}}" class="nav-link px-0 align-middle" style="color:white;">
                                  <span class="ms-1 d-none d-sm-inline">Trending</span> </a>
                            
                         </li>
                         <li>
-                            <a href="latest" class="nav-link px-0 align-middle">
+                            <a href="{{url_for('latest')}}" class="nav-link px-0 align-middle" style="color:white;">
                             <span class="ms-1 d-none d-sm-inline">Latest</span></a>
                         </li>
                         <li>
-                            <a href="search" class="nav-link px-0 align-middle ">
+                            <a href="search" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Search</span></a>
                             
                         </li>
                         <li>
-                            <a href="feed" class="nav-link px-0 align-middle ">
+                            <a href="{{url_for('feed')}}" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Feed</span></a>
                             
                         </li>
                         <li>
-                            <a href="settings" class="nav-link px-0 align-middle ">
+                            <a href="{{url_for('settings')}}" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Settings</span></a>
                             
                         </li>
@@ -58,7 +59,8 @@
                     
                     </ul>
                     <hr>
-                    
+    
+                    </div>
                 </div>
             </div>
             <div class="col py-3 background">
@@ -91,8 +93,8 @@
                 <label for="HighContrast">High Contrast</label><br> 
                 <input type="checkbox" id="ColorBlindMode" name="ColorBlindMode" value="ColorBlindMode">
                 <label for="ColorBlindMode">Color Blind Mode</label><br> 
-                <button class="cancel">Cancel</button>
-                <button class="save">Save</button>
+                <button class="cancelbutton">Cancel</button>
+                <button class="savebutton">Save</button>
             </div>
         </div>
     </div>

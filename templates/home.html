@@ -12,7 +12,7 @@
             <div class="col-md"></div>
           <a class="navbar-brand text-center">Publish</a>
           <div class="col text-end">
-            <a href="new_user" class="bannerButton" style="position:relative;right:10px; padding:15px 30px" >Logout</a>
+            <a href="{{url_for('new_user')}}" class="bannerButton" style="position:relative;right:10px; padding:15px 30px" >Logout</a>
           </div>
         </div>
       </nav>
@@ -23,34 +23,35 @@
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="navEdits">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
-                            <a href="/" class=" nav-link align-middle px-0">
+                            <a href="{{url_for('start')}}" class=" nav-link align-middle px-0" style="color:white;">
                                 <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="trending" class="nav-link px-0 align-middle">
+                            <a href="{{url_for('trending')}}" class="nav-link px-0 align-middle" style="color:white;">
                                  <span class="ms-1 d-none d-sm-inline">Trending</span> </a>
                            
                         </li>
                         <li>
-                            <a href="latest" class="nav-link px-0 align-middle">
+                            <a href="{{url_for('latest')}}" class="nav-link px-0 align-middle" style="color:white;">
                             <span class="ms-1 d-none d-sm-inline">Latest</span></a>
                         </li>
                         <li>
-                            <a href="search" class="nav-link px-0 align-middle ">
+                            <a href="search" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Search</span></a>
                             
                         </li>
                         <li>
-                            <a href="feed" class="nav-link px-0 align-middle ">
+                            <a href="{{url_for('feed')}}" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Feed</span></a>
                             
                         </li>
                         <li>
-                            <a href="settings" class="nav-link px-0 align-middle ">
+                            <a href="{{url_for('settings')}}" class="nav-link px-0 align-middle " style="color:white;">
                                 <span class="ms-1 d-none d-sm-inline">Settings</span></a>
                             
                         </li>
@@ -58,7 +59,8 @@
                     
                     </ul>
                     <hr>
-                    
+    
+                    </div>
                 </div>
             </div>
             <main class="col py-3 background">
@@ -76,7 +78,7 @@
                           <h2 class="card-title">My Skibidi Toilet addiction</h2>
                           <p class="card-text">William Afton, published 4/20/24</p>
                           <p class="card-text">blah blah blah blah</p>
-                          <a href="/article/{{item['_id'] if item else ''}}" class="btn btn-primary">Go to article</a>
+                          <a href="/article/{{item['_id'] if item else ''}}" class="button">Go to article</a>
                           <!--This one isn't gonna fucking work cause you hard coded it-->
                         </div>
                     </div>
@@ -93,7 +95,7 @@
                         <div class="card-body">
                           <h5 class="card-title">{{item["title"]}}</h5>
                           <p class="card-text"> {{item["author"]}}, published {{item["date_string"]}}</p>
-                          <a href="/article/{{item['_id']}}" class="btn btn-primary">Go to article</a>
+                          <a href="/article/{{item['_id']}}" class="button">Go to article</a>
                         </div>
                       </div>
                       {% endfor %}
