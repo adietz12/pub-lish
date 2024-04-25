@@ -18,7 +18,14 @@ articles_db = client.articles_db
 @app.route("/", methods=["GET"])
 @app.route("/home")
 def start():
-    return render_template("home.html")
+    article_collection = articles_db.article_collection
+    #load data
+    data = list(article_collection.find({}))
+    for item in data:
+        item["_id"] = str(item["_id"])
+        item["object"] = ObjectId(item["_id"])
+    return render_template("home.html", data=data, page="Home")
+
 
 @app.route("/settings")
 def settings():
