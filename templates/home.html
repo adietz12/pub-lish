@@ -75,12 +75,11 @@
                                     Featured
                                 </div>
                                 <div class="card-body">
-                                <h2 class="card-title">My Skibidi Toilet addiction</h2>
-                                <p class="card-text">William Afton, published 4/20/24</p>
+                                <h2 class="card-title">{{featured["title"]}}</h2>
+                                <p class="card-text">{{featured["author"]}}, published {{featured["date_string"]}} </p>
                                 <img src="{{url_for('static', filename='Normal_better_Toilet.webp')}}" alt="logo" style="width:450px; height:400px" class="card-text">
                                 <p class="card-text">Howdy folks! William Afton here, co-founder of Freddy's Family Diner, but today, we're not talking animatronics or pizza. Nope, today, we're diving deep into the world of</p>
-                                <a href="/article/662bdd4ae5d6dccf68a9a01b" class="button">Go to article</a>
-                                <!--This one isn't gonna fucking work cause you hard coded it-->
+                                <a href="/article/{{featured['_id']}}" class="button">Go to article</a>
                                 </div>
                             </div>
                             <br>

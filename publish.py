@@ -19,12 +19,17 @@ articles_db = client.articles_db
 @app.route("/home")
 def start():
     article_collection = articles_db.article_collection
+    #Load featured
+    featured = article_collection.find_one(sort=[("date_created", -1)])
+    featured["_id"] = str(featured["_id"])
+    featured["object"] = ObjectId(featured["_id"])
+    
     #load data
     data = list(article_collection.find({}))
     for item in data:
         item["_id"] = str(item["_id"])
         item["object"] = ObjectId(item["_id"])
-    return render_template("home.html", data=data, page="Home")
+    return render_template("home.html", data=data, featured=featured, page="Home")
 
 
 @app.route("/settings")
@@ -72,6 +77,7 @@ def article(id=None):
         
         #get item
         data = article_collection.find_one({"_id": ObjectId(id)})
+        print(data)
         data["id"] = str(data["_id"])
         return render_template("article.html", data=data)
     else:
