@@ -77,13 +77,23 @@ def article(id=None):
     else:
         return redirect(url_for("start"))
 
+@app.route("/search", methods=["POST"])
 @app.route("/search", methods=["GET"])
 def search():
-    search_input = request.args.get("search-input", "")
+    search_input = request.form.get("search-input", "")
     article_collection = articles_db.article_collection
-    
+
+    #Filter by dropdown option
+    filter_by = request.form.get("filter", "title")
+
+    if filter_by == "title":
+        query = {"title": {"$eq": search_input}}
+    elif filter_by == "author":
+        query = {"author": {"$eq": search_input}}
+    else:
+        query={}
     # Query the database by exact title match
-    data = list(article_collection.find({"title": search_input}))
+    data = list(article_collection.find(query))
 
     # Convert ObjectId to string for each document
     for item in data:

@@ -65,25 +65,42 @@
             </div>
             <div class="col py-3 background">
                 <!--Content goes here-->
+                <form action="/search" method="POST">
                 <div class="input-group">
-                        <input id="search-input" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                        <a id="search-link" href="#" class="btn button" data-mdb-ripple-init>Search</a>
+                    <select name="filter" class="btn button">
+                        <option value="title">Title</option>
+                        <option value="author">Author</option>
+                    </select>
+                        <input id="search-input" type="search" name="search-input" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <a id="search-link" href="/search" class="btn button" data-mdb-ripple-init>Search</a>
+                        
                   </div>
-                  <div class="card-columns">
-                    {% for item in data%}
-                    <div class="card">
-                        <div class="card-header">
-                          {{page}}
-                        </div>
+                </form>
+                {% if data %}
+                    <div class="card-columns">
+                        {% for item in data %}
+                        <div class="card">
+                            <div class="card-header">
+                                {{ page }}
+                            </div>
 
-                        <div class="card-body">
-                          <h5 class="card-title">{{item["title"]}}</h5>
-                          <p class="card-text"> {{item["author"]}}, published {{item["date_string"]}}</p>
-                          <a href="/article/{{item['_id']}}" class="btn btn-primary">Go to article</a>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item["title"] }}</h5>
+                                <p class="card-text">{{ item["author"] }}, published {{ item["date_string"] }}</p>
+                                <a href="/article/{{ item['_id'] }}" class="btn btn-primary">Go to article</a>
+                            </div>
                         </div>
-                      </div>
-                      {% endfor %}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
 
+{% if not data and request.method == "POST" %}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">We cannot find that shit</h5>
+    </div>
+</div>
+{% endif %}
             </div>
         </div>
     </div>
