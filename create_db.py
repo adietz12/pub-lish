@@ -15,7 +15,8 @@ publish_data = [
     {"pop":"1","author":"Spongebob", "title":"How I lost my edging streak", "text":"blah blah blah blah", "date_created":convert_date("3/1/23"), "date_string":"3/1/23"},
     {"pop":"1","author":"Senator Armstrong", "title":"Why sigma male is better than alpha male", "text":"blah blah blah blah", "date_created":convert_date("5/28/19"), "date_string":"5/28/19"},
     {"pop":"1","author":"William Afton", "title":"My Skibidi Toilet addiction", "text":"blah blah blah blah", "date_created":convert_date("4/20/24"), "date_string":"4/20/24"},
-    {"pop":"1","author":"Guts", "title":"I MET KAI CENAT!! (GONE SEXUAL)", "text":"blah blah blah blah", "date_created":convert_date("1/11/22"), "date_string":"1/11/22"}
+    {"pop":"1","author":"Guts", "title":"I MET KAI CENAT!! (GONE SEXUAL)", "text":"blah blah blah blah", "date_created":convert_date("1/11/22"), "date_string":"1/11/22"},
+    {"pop":"1","author":"Spongebob", "title":"The best Grimace Shake flavor", "text":"blah blah blah blah", "date_created":convert_date("3/14/21"), "date_string":"3/14/21"}
 ]
 
 #Create a mongita client connection
