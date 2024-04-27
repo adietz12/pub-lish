@@ -29,7 +29,7 @@ def start():
     for item in data:
         item["_id"] = str(item["_id"])
         item["object"] = ObjectId(item["_id"])
-    return render_template("home.html", data=data, featured=featured, page="Home")
+    return render_template("home.html", data=data, featured=featured, page="For you")
 
 
 @app.route("/settings")
