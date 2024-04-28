@@ -34,77 +34,6 @@ The collaboration between Kent State students and Brenkus has offered a good exp
 “Students themselves exemplified the type of curriculum that Kent State has, because they’re very bright and talented,” Brenkus said. “When everybody created shirts for us, I gotta tell you, I could have probably used every single one of them.”
 """,
 """
-April is Sexual Assault Prevention and Awareness Month (SAAM). Several events are occurring on campus throughout the month, such as a Denim Day fashion show, to shed light on SAAM.
-
-SAAM was nationally recognized for the first time in 2009 by former president Barack Obama. However, the National Sexual Violence Resource Center (NSVRC) first started recognizing SAAM in 2001.
-
-NSVRC aims to share more resources with the public, Halle Nelson, communications specialist with NSVRC, said in an email.
-
-“Sexual harassment, assault, and abuse are a longstanding, pervasive issue in our culture, and it is our goal to remove stigma around that conversation, empower survivors through education, amplify local and state resources for survivors to pursue and reinforce to the public that sexual violence is preventable,” Nelson said.
-
-SAAM allows for a more concentrated effort to bring awareness to sexual assault, a conversation that NSVRC has all year, Nelson said.
-
-“Each April, we encourage allies and fellow sexual violence-combatting organizations across the nation to participate in hosting events, posting on social media and doing any other sort of activity to amplify the issue of sexual violence in their communities,” she said. “Sexual violence-based prevention, education and advocacy is a year-round effort, but we are particularly pleased to see how many people have used SAAM as an opportunity to open up discussion about such an important topic.”
-
-Sexual assault awareness does not have to always be regarded as a depressing or heavy topic, Nelson said in an email.
-
-“It’s a chance to uplift and champion inspiring figures and advocates,” she said. “It’s a time to honor how much progress has been made by advocates, largely women, who fought to have their issues recognized by the public. When you look at it that way, it’s a time of education, hope and perseverance.”
-
-When it comes to college campuses specifically, Rape, Abuse and Incest National Netwrok (RAINN) says, “among undergraduate students, 26.4% of females and 6.8% of males experience rape or sexual assault through physical force, violence or incapacitation.”
-
-Looking more directly at the Kent State campus, the university is required to release a security report annually. Past reports have shown that the university reported 16 instances of rape on campus in 2021. Additionally, the university has reported 12 instances of rape on campus in 2022.
-
-On campus, the Center for Sexual and Relationship Violence Services (SRVSS) is a resource that students can reach out to if they have questions or need support. They also provide educational resources about sexual assault and relationship violence.
-
-SRVSS uses SAAM to make more people aware of the prevalence of sexual assault in society, Julis Payne, program director for SRVSS, said.
-
-“Sexual assault awareness month is an awareness month that sheds light on the issue of power-based personal violence, as far as sexual assault goes,” Payne said. “So it’s an opportunity to put on programs, to market different things, to just raise awareness for individuals to know how big of an issue sexual assault is, not only on college campuses, but in our communities and just in our country in general.”
-
-When talking about sexual assault, there are often misconceptions about the frequency of it occurring, and about who is impacted by these situations.
-
-“I mean, as progressive as we are, there’s still a misconception that it doesn’t happen to guys, or that whatever the situation may be, a guy can get himself out of that,” Payne said. “Another one is the misconception that people are lying when they say that something has happened to them. Realistically, statistically, the same amount of people lie about sexual assault that lie about other crimes.”
-
-SRVSS uses educational efforts to try and remove these misconceptions from people’s minds and change the narrative they may have about sexual assault, Payne said.
-
-One event SRVSS is having on campus is the ‘Denim Day Fashion Show’. It is being put on by Deandra Wright, a senior advertising and communications major and India Gardener, a senior journalism major.
-
-Denim Day takes place on the last Wednesday of April, and it is in recognition of an infamous Italian Supreme Court ruling, in which a rape conviction was overturned because of the clothing the victim was wearing.
-
-The Supreme Court believed that since the victim was wearing tight denim jeans, she would have had to help the perpetrator remove her pants, implying consent.
-
-The story of Denim Day could resonate with many women who have been in similar situations, and the students want to use the fashion show to shed light on it, Gardener said.
-
-“Our job, when it comes to denim day, is to show people that you can be assaulted in any amount of clothes that you are wearing, and any type of clothes that you are wearing,” she said. “Regardless of it being denim or something being tight, it can happen to anyone.”
-
-The event will include a fashion show and presentation about what denim day is, so students can learn more. It will be held Wednesday, April 24, from 6-8 p.m. in the Oscar-Ritchie Theater.
-
-Gardener and Wright hope to bring awareness to the resources available to students through this event.
-
-“Our main goal is to include you in here, get you involved, get you educated and not only realize there are resources on the Kent campus but also there are resources you can point out to your friends,” Gardener said. “A lot of people don’t know the type of support services that SRVSS offer.”
-
-SAAM as a whole, including Denim Day, can help raise awareness for something that people often shy away from talking about, Wright said.
-
-“It’s just a month to honor victims of sexual assault, to have these conversations,” she said. “Because daily people are sexually assaulted, it’s often hidden. These are often conversations we shy away from even today, the justice system has a lot of work to do. So SAAM is really important to cause awareness and bring awareness to these issues, so that we can move forward as a society and begin to fix them.”
-
-Just a few of the other events that SRVSS has put on this month include the “What Were You Wearing” exhibit, the Day of Action and More Than Words.
-
-‘What Were You Wearing’ was an exhibit recreating outfits that both women and men have been sexually assaulted in. The goal was to educate people that sexual assault can occur no matter what a person is wearing, Gardener said. It ran from April 6-14, in the Williamson House and the Center for Visual Arts.
-
-“With our ‘Day of Action’ event, it’s just us getting toiletries and stuff together for underprivileged people,” Gardener said. The drop-off deadline for collecting items was April 12, but the care package making will occur April 30.
-
-The ‘More Than Words’ event was a space for people to come into the Williamson House and create art while meeting with people to share their stories and receive support from the community, Wright said. The event occurred April 16 from 3 to 4:30 p.m.
-
-The rest of the events for the month can be located on the SRVSS website.
-
-One of the best ways to support a friend or family member who comes to you for support regarding sexual assault is to believe them, Payne said.
-
-“If you believe that something happened to that person, you’re going to give them resources,” Payne said. “If you believe them, you’ll get them to somebody who can help them.”
-
-The Williamson House is located at 1175 Risman Dr. It is open Monday through Friday from 8 a.m. to 5 p.m. for anyone who wants to talk or spend time in a safe space.
-
-“There is no shame in reaching out,” Payne said. “There is no shame in using the resources, that is what we are here for. It could be something that happened years ago, that you just need to unwind. If you just need to talk to somebody, you can come to us.”
-""",
-"""
 On the night of a formal dance at their high school, Aiden Zapisek, who identifies as non-binary and gay, entered a stall in the men’s bathroom. Soon after, a group of boys walked in and surrounded the stall door.
 
 With their heart pounding, Zapisek froze as the boys banged on the door while yelling, moaning and throwing things into the stall.
@@ -243,15 +172,45 @@ The state of the science update was open to the public, and residents or anyone 
 
 “To be able to interpret the information in a way that people understood, and for them to be able to ask questions to people who are experts in their respective fields, was also very helpful,” Morgan said. “To not just have the government answer to everything, but to have people for whom this is their life’s work be able to answer.”
 """,
+"""
+So, it’s the end of the second semester. At least, it is by the time this is released. As I write this, it’s late at night after putting it off all week. This has been the same situation with all of my assignments for at least the last month. This can be narrowed down to a simple term known as burnout.
+
+I’m sure that if you clicked on this article, you’re probably in the late stages of academic burnout, too. Trust me, you’re not alone. It’s an epidemic that plagues college students everywhere at least once a year. 
+
+The official dictionary definition of burnout is: “feeling empty and mentally exhausted, devoid of motivation and beyond caring.” I personally concur with this. I’m at the stage of the semester where I kind of just don’t care. I’m tired all the time and have no motivation to do anything, but I still manage to barely pick myself up and get done what I have to so I don’t flunk out a class, or a few for that matter. 
+
+It’s the same process every time. I get a new assignment, I leave class, I take a nap, I avoid doing said assignment until the last minute, I go to bed, repeat. The same damn process over and over and over. It’s even worse when you’re a diagnosed depression and anxiety-ridden freshman like me. 
+
+One minute you can range from feeling motivated to do an assignment, but wait too long and you’ll want to stay as far away from it as possible. At the end of the week, though, you somehow make it. You somehow manage to do what your head is telling you is impossible.
+
+You live to see another day. 
+
+Well, I’m here to tell you that you can do it! Hell, I mean I’m here writing this after barely surviving through another week, yet, I persevered. The next time that the burnout is just too real, don’t force yourself to do it, because I have some advice for you! 
+
+Based on my observations of an article from choosingtherapy.com, I found a few therapist-recommended tips to help you through this burnout. 
+
+    Just breathe. Deep breaths tell your brain to relax when stressed. Your mind may still be racing, but at least your body understands you are not in immediate danger. Try counting your inhales and exhales or putting your hand on your stomach to notice the rise and fall as you breathe. 
+    Use daily relaxation reminders. Establishing relaxation reminders throughout your day is a great way to stay consistent with managing your stress proactively. Set a reminder on your phone or work calendar to step away for a rest break. Take a deep breath, roll your shoulders and tell yourself, “I am calm.” With regular practice, your body becomes more and more efficient at returning to a state of balance.  
+    Get realistic with time management. While preventing burnout may not always be possible, improving your time management can help you feel less overwhelmed. Start by establishing your priorities each day. You can then create a schedule and break large tasks into more manageable steps.
+    Focus on what you can control. Feeling bogged down by the things you can’t change is easy. However, you may feel more empowered when focused on what you can change (your reactions, mindset and behaviors). This step can promote a sense of confidence and offset or reduce the effect of burnout.   
+    Get enough sleep. Consider how much energy you actually have each day when determining how to overcome burnout. Sleep hygiene is especially critical. Ensure you get plenty of sleep (adults typically need seven to nine hours) in a dark, cool and comfortable environment. 
+    Prioritize self care. Self-care can help you manage burnout by strengthening your physical and emotional well-being. Self-care comes in many forms, but the overarching goal is to meet your needs kindly and compassionately. Schedule regular, daily self-care. Just a few minutes can make a significant difference.
+    Take frequent breaks throughout the day. Even small breaks can help you restore your energy levels each day. Plan times to eat meals, drink coffee or even socialize with colleagues during work. Try a time management method where you work for a designated chunk before taking a planned break. In addition to helping you feel better emotionally, doing so can boost productivity.
+    Ask for help. Sometimes, reducing burnout comes down to knowing how and when to ask for help. Independence has virtues, but reminding yourself that everyone needs support at some point is crucial. Furthermore, many people want to help, so consider requesting assistance with specific tasks or projects from trusted loved ones.
+
+I hope you take this advice into consideration. I really just hope you take care of yourself in general. The year is almost over and then it’s summertime.
+
+Let’s handle this as a team and make our homework cry in desperation instead of us. You can do this! This is just a short time in your life. It will get better. So, go out there and kick some butt. 
+"""
 ]
 #Put future articles in here the way it is formatted
 print(article)
 publish_data = [
     {"pop":"1","author":"Lauren Vaughn", "title":"School of Fashion collaborates with ’90s fitness guru for t-shirt design contest", "text":article[0], "date_created":convert_date("4/28/24"), "date_string":"4/28/24"},
-    {"pop":"1","author":"Olivia Montgomery", "title":"Sexual Assault Awareness Month provides support for students and community", "text":article[1], "date_created":convert_date("4/28/24"), "date_string":"3/28/24"},
-    {"pop":"1","author":"Aden Graves", "title":"Inside House Bill 183: Ohio’s latest bathroom bill", "text":article[2], "date_created":convert_date("3/28/24"), "date_string":"4/28/24"},
-    {"pop":"1","author":"Morgan Hoover", "title":"Kent State of Well-Being supports Earth Month with Wednesday event", "text":article[3], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
-    {"pop":"1","author":"Kayla Gleason", "title":"University researchers analyze, present effects of East Palestine train derailment", "text":article[4], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
+    {"pop":"1","author":"Aden Graves", "title":"Inside House Bill 183: Ohio’s latest bathroom bill", "text":article[1], "date_created":convert_date("3/28/24"), "date_string":"4/28/24"},
+    {"pop":"1","author":"Morgan Hoover", "title":"Kent State of Well-Being supports Earth Month with Wednesday event", "text":article[2], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
+    {"pop":"1","author":"Kayla Gleason", "title":"University researchers analyze, present effects of East Palestine train derailment", "text":article[3], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
+    {"pop":"1","author":"Nick Keller", "title":"OPINION: The burnout is real", "text":article[4], "date_created":convert_date("4/23/24"), "date_string":"4/23/24"},
 ]
 
 #Create a mongita client connection
