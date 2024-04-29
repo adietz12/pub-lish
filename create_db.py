@@ -207,9 +207,9 @@ Let’s handle this as a team and make our homework cry in desperation instead o
 print(article)
 publish_data = [
     {"pop":"1","author":"Lauren Vaughn", "title":"School of Fashion collaborates with ’90s fitness guru for t-shirt design contest", "text":article[0], "date_created":convert_date("4/28/24"), "date_string":"4/28/24"},
-    {"pop":"1","author":"Aden Graves", "title":"Inside House Bill 183: Ohio’s latest bathroom bill", "text":article[1], "date_created":convert_date("3/28/24"), "date_string":"4/28/24"},
-    {"pop":"1","author":"Morgan Hoover", "title":"Kent State of Well-Being supports Earth Month with Wednesday event", "text":article[2], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
-    {"pop":"1","author":"Kayla Gleason", "title":"University researchers analyze, present effects of East Palestine train derailment", "text":article[3], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
+    {"pop":"2","author":"Aden Graves", "title":"Inside House Bill 183: Ohio’s latest bathroom bill", "text":article[1], "date_created":convert_date("4/28/24"), "date_string":"4/28/24"},
+    {"pop":"5","author":"Morgan Hoover", "title":"Kent State of Well-Being supports Earth Month with Wednesday event", "text":article[2], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
+    {"pop":"3","author":"Kayla Gleason", "title":"University researchers analyze, present effects of East Palestine train derailment", "text":article[3], "date_created":convert_date("4/25/24"), "date_string":"4/25/24"},
     {"pop":"1","author":"Nick Keller", "title":"OPINION: The burnout is real", "text":article[4], "date_created":convert_date("4/23/24"), "date_string":"4/23/24"},
 ]
 
